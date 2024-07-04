@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Count</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="box">
+        <div class="title-box">
+            <h2 id="title">Word Counter</h2>
+        </div>
+        <div class="input-box">
+            <textarea name="text-field" id="text-field" placeholder="Enter your text"></textarea>
+        </div>
+        <div class="btn-box">
+            <button id="count" class="btn" onclick="counter()">Count</button>
+            <button id="reset" class="btn" onclick="reset()">Reset</button>
+        </div>
+        <div class="result-box">
+            <p>Words : <span id="word-length">0</span></p>
+            <p>Characters : <span id="char-length">0</span></p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
